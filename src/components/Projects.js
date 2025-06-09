@@ -8,7 +8,7 @@ const projects = [
   description: "Built a React app that generates AI powered recipes from a dynamic ingredient list using the Hugging Face Mistral model. Allows users to customize dietary preferences and receive real time, step by step instructions.",
   tech: ["React", "Hugging Face API", "Axios", "Tailwind CSS", "Node.js"],
  // year: "Summer 2024",
-  github: "https://github.com/your-username/claude-recipe"
+  github: "https://github.com/Adithya1105/chefclaude"
 },
 
 
@@ -24,7 +24,7 @@ const projects = [
     description: "Leveraged transfer learning with MobileNetV2 for binary classification of authentic vs counterfeit ICs. Achieved 94.1% test accuracy.",
     tech: ["TensorFlow", "MobileNetV2", "Image Processing"],
   //  year: "Fall 2023",
-   github: "https://github.com/your-username/ai-image-detector"
+  // github: "https://github.com/your-username/ai-image-detector"
   },
   {
     name: "AI Generated Images Detector",
