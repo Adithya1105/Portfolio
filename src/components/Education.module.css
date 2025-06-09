@@ -1,0 +1,125 @@
+/* Education.module.css */
+
+.eduSection {
+  width: 50vw;
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 2.5rem 1rem;
+  background: var(--background);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.eduItem {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.eduItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(64,191,255,0.13);
+}
+
+.eduHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--blue-dark);
+}
+
+.gpa {
+  font-size: 1rem;
+  font-weight: 500;
+  background: var(--blue-dark);
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+  border-radius: 8px;
+}
+
+.school {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.gradDate {
+  font-size: 0.95rem;
+  color: var(--subtle);
+  margin-bottom: 1rem;
+}
+.courseList {
+  list-style: none;       
+  margin: 0.5rem 0 0 0;   
+  padding-left: 8rem;  
+ 
+}
+
+/* Position each item for its arrow */
+.courseList li {
+  position: relative;
+  padding-left: 1.5rem;   
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+
+}
+
+.courseList li::before {
+  content: "➤";          
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: var(--blue-dark);
+}
+
+@media (max-width: 600px) {
+  .eduSection {
+    padding: 2rem 0.5rem;
+  }
+  .eduHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .courseList {
+    grid-template-columns: 1fr;
+  }
+}
+
+.schoolContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.school {
+  font-size: 1rem;
+  color: var(--text);
+  margin: 0; 
+}
+
+
+.schoolLogo {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}

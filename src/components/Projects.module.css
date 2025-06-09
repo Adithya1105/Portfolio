@@ -1,0 +1,70 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.13);
+}
+
+.techStack {
+  margin: 1rem 0;
+}
+
+.techStack span {
+  background: #40bfff;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* .year {
+  background: #e0e7ff;
+  color: #4f46e5;
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+} */
+
+.githubLink {
+  margin-top: 1rem;
+  display: inline-block;
+  background:   var(--blue-dark);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.githubLink:hover {
+  background: #04eeffd7 ;
+}

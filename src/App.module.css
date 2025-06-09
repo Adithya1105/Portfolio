@@ -1,0 +1,94 @@
+
+/* full-bleed intro wrapper */
+.introSection {
+  position: relative;
+  height: 100vh;                    /* fill viewport height */
+  width: 100vw;                     /* fill viewport width */
+  margin-left: calc(50% - 50vw);    /* break out of centered main */
+  overflow: hidden;                 /* clip the bg inside */
+}
+
+
+
+
+
+
+
+:root {
+  --primary-color: #82d8da;
+  --secondary-color: #6366f1;
+  --accent-color: #22c55e;
+  --text-color: #22223b;
+  --background-color: #f8fafc;
+  --font-family: 'Poppins', Arial, sans-serif;
+}
+
+
+
+body {
+  font-family: var(--font-family);
+  background: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 120vh;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+button, .btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+/* SectionHeader.module.css */
+
+.sectionHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 1.5rem 0 1.2rem;   
+  text-align: center;       
+  position: relative;
+  padding-bottom: 0.5rem;  
+}
+
+.sectionHeader::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-color);
+  bottom: 0;
+  left: 50%;               
+  transform: translateX(-50%); 
+  border-radius: 2px;
+}
