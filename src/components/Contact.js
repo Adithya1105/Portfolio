@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
+
+import { useState } from "react";
 import styles from "./Contact.module.css";
 import {
   FaEnvelope,
@@ -15,8 +15,8 @@ const SOCIAL = [
 ];
 
 export default function Contact() {
-  const { register, formState: { errors, isSubmitting } } = useForm();
-  const [submitted, setSubmitted] = useState(false);
+ // const { register, formState: { errors, isSubmitting } } = useForm();
+  //const [submitted, setSubmitted] = useState(false);
 
   return (
     <section className={styles.contactSection}>
@@ -32,13 +32,13 @@ export default function Contact() {
           ))}
         </div>
 
-        <div className={styles.formContainer}>
+        {/* <div className={styles.formContainer}>
           {submitted && (
             <div className={styles.thankyou}>
               <FaCheckCircle className={styles.successIcon} />
               <p>Thank you! Your message has been sent to Adithya.</p>
             </div>
-          )}
+          )} */}
 
 
 
@@ -103,7 +103,7 @@ export default function Contact() {
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>
           </form> */}
-        </div>
+        
       </div>
     </section>
   );
