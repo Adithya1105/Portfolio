@@ -50,14 +50,16 @@ const Projects = () => (
             {proj.tech.map(t => <span key={t}>{t}</span>)}
           </div>
           <span className={styles.year}>{proj.year}</span>
+                {proj.github && (
             <a
-      href={proj.github}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={styles.githubLink}
-    >
-      View on GitHub
-    </a>
+              href={proj.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.githubLink}
+            >
+              View on GitHub
+            </a>
+          )}
         </div>
       ))}
     </div>
