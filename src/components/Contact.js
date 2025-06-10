@@ -40,6 +40,12 @@ export default function Contact() {
             </div>
           )}
 
+
+
+
+
+
+
           {/* <form
             name="contact"
             method="POST"
