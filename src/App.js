@@ -40,9 +40,9 @@ function App() {
         <section id="projects" data-aos="fade-up">
           <Projects />
         </section>
-        <section id="contact" data-aos="fade-up">
+        {/* <section id="contact" data-aos="fade-up">
           <Contact />
-        </section>
+        </section> */}
       </main>
       <Footer />
     </div>

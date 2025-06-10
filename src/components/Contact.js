@@ -46,7 +46,7 @@ export default function Contact() {
             data-netlify="true"
             className={styles.form}
             netlify
-            action="/thank-you.html"
+            action="public/thank-you.html"
             onSubmit={() => setSubmitted(true)}
           >
             <input type="hidden" name="form-name" value="contact" />
