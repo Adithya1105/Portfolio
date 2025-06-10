@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -39,10 +40,10 @@ function App() {
         <section id="projects" data-aos="fade-up">
           <Projects />
         </section>
-        {/* <section id="contact" data-aos="fade-up">
+        {<section id="contact" data-aos="fade-up">
           <Contact />
         </section> 
-        */}
+        }
 
 
       </main>

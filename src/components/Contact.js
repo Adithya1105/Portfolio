@@ -40,7 +40,7 @@ export default function Contact() {
             </div>
           )}
 
-          <form
+          {/* <form
             name="contact"
             method="POST"
             data-netlify="true"
@@ -96,7 +96,7 @@ export default function Contact() {
             <button type="submit" disabled={isSubmitting}>
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
