@@ -1,12 +1,12 @@
 
-import { useState } from "react";
+
 import styles from "./Contact.module.css";
 import {
   FaEnvelope,
   FaPhone,
   FaLinkedin,
   FaGithub,
-  FaCheckCircle
+ 
 } from "react-icons/fa";
 
 const SOCIAL = [
