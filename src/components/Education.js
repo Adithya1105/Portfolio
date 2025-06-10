@@ -27,7 +27,7 @@ const educationData = [
   },
   {
     degree: "Bachelor of Technology in Computer Science",
-    school: "Gurunak Institute of Technical Campus, Hyderabad, India",
+    school: "GuruNanak Institute of Technical Campus, Hyderabad, India",
     logo: jntuLogo,
     gpa: "8.6/ 10",
     coursework: [
