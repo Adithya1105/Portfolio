@@ -6,7 +6,6 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,7 +41,10 @@ function App() {
         </section>
         {/* <section id="contact" data-aos="fade-up">
           <Contact />
-        </section> */}
+        </section> 
+        */}
+
+
       </main>
       <Footer />
     </div>
